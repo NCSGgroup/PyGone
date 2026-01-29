@@ -1,4 +1,4 @@
-# PyGone: Python for Gravity satellite level-one data processing
+# PyGone: Python codes for Gravity satellite level-one data processing
 A Python toolbox exclusively for GRACE(-FO) Level-1A data processing, which currently supports (1) AOD1B modeling and (2) attitude determination. Be aware that this toolbox is still being developed, since
 more functionalities are planned to address the processing of a complete set of level-1a instrument: KBR, LRI, ACC, and GNSS on board GRACE(-FO).
 
