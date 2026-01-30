@@ -1,0 +1,12 @@
+{
+           "Integral": "upper",
+           "BeginDate": "2023-12-22",
+           "EndDate": "2023-12-31",
+           "PathDataLoad": "H:/Paper_CRALICOM/data/CRA.grib2/",
+           "PathTide": "H:/Paper_CRALICOM/result/tide/2007_2014/TidePressure/",
+           "Path_SP": "H:/Paper_CRALICOM/result/sp/",
+           "Path_Upper": "H:/Paper_CRALICOM/result/upper/",
+           "Path_LN": "H:/Paper_CRALICOM/data/Auxiliary/",
+           "MaxDegree": 180,
+           "Interval": 6
+}

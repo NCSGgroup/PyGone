@@ -1,0 +1,12 @@
+{
+           "Integral": "sp",
+           "BeginDate": "2007-01-01",
+           "EndDate": "2007-05-31",
+           "PathDataLoad": "I:/CRA40/",
+           "PathTide": "I:/CRALICOM/result/Tide/ATM/2007_2014/TidePressure/",
+           "Path_SP": "I:/CRALICOM/result/Version1.0/atmosphereDetide/",
+           "Path_Upper": "I:/Paper/result/upper_111/",
+           "Path_LN": "../../data/Auxiliary/",
+           "MaxDegree": 180,
+           "Interval": 6
+}

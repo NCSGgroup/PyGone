@@ -1,0 +1,14 @@
+{
+             "Function": "Mean",
+             "period": "2003-2014",
+             "Path_SP": "H:/Paper_CRALICOM/result/sp/",
+             "Path_Upp": "H:/Paper_CRALICOM/result/upper/",
+             "Path_Mean": "H:/Paper_CRALICOM/result/mean/",
+             "Save_Path": "H:/Paper_CRALICOM/result/ATM/",
+             "BeginDate": "2003-01-01",
+             "EndDate": "2014-12-31",
+             "interval": 6,
+             "Nmax": 180,
+             "MeanType": "upper",
+             "Grid": 0.5
+}
