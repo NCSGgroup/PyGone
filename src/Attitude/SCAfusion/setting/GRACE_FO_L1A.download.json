@@ -1,0 +1,8 @@
+{
+  "Mission": "GRACE_FO",
+  "Level": "L1A",
+  "Local directory": "../data/GRACE_FO/RL04",
+  "Remote site": "ftp://anonymous@isdcftp.gfz-potsdam.de/grace-fo/Level-1A/JPL/INSTRUMENT/RL04/",
+  "Data begin": "2020-04-10",
+  "Data end": "2020-04-10"
+}

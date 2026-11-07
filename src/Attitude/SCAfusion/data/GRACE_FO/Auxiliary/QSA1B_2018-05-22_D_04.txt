@@ -1,0 +1,103 @@
+header:
+  dimensions:
+    num_records: 3
+  global_attributes:
+    acknowledgement: GRACE-FO is a joint mission of the US National Aeronautics and Space Administration and the German Research Center for Geosciences.  Use the digital object identifier provided in the id attribute when citing this data.  See https://podaac.jpl.nasa.gov/CitingPODAAC
+    conventions: CF-1.6, ACDD-1.3, ISO 8601
+    creator_email: gracefo@podaac.jpl.nasa.gov
+    creator_institution: NASA/JPL
+    creator_name: GRACE Follow-On Science Data System
+    creator_type: group
+    creator_url: http://gracefo.jpl.nasa.gov
+    date_created: 2019-05-13T21:07:35Z
+    date_issued: 2019-05-22T15:19:27Z
+    history:
+      - "INPUT FILE NAME               : A2B<-Standard_Out"
+      - "INPUT FILE CREATION TIME (UTC): A2B<-2019-05-13 21:35:53 by operator"
+      - "INPUT FILE SOFTWARE VERSION   : A2B<-9a1b2"
+      - "INPUT FILE BUILDTIME TAG      : A2B<-04-04_00:01:03_PDT"
+    id: 10.5067/GFJPL-L1B04
+    institution: NASA/JPL
+    instrument: Platform geometry
+    instrument_vocabulary: NASA Global Change Master Directory instrument keywords
+    keywords: GRACE-FO, Platform geometry
+    keywords_vocabulary: NASA Global Change Master Directory (GCMD) Science Keywords
+    license: https://science.nasa.gov/earth-science/earth-science-data/data-information-policy
+    naming_authority: org.doi.dx
+    platform: GRACE D
+    platform_vocabulary: NASA Global Change Master Directory platform keywords
+    processing_level: 1B
+    product_version: 04
+    program: NASA Earth Systematic Missions Program
+    project: NASA Gravity Recovery And Climate Experiment Follow-On (GRACE-FO)
+    publisher_email: podaac@jpl.nasa.gov
+    publisher_institution: NASA/JPL
+    publisher_name: Physical Oceanography Distributed Active Archive Center
+    publisher_type: group
+    publisher_url: http://podaac.jpl.nasa.gov
+    references: https://podaac.jpl.nasa.gov/gravity/gracefo-documentation
+    source: GRACE D Rotation from SCFs into SRF
+    summary: Rotation from SCFs into SRF
+    time_coverage_start: 2018-05-22T00:00:00.00Z
+    time_coverage_stop: 2018-05-22T00:00:00.00Z
+    title: GRACE-FO Level-1B Spacecraft Frame Rotation Data
+  non-standard_attributes:
+    epoch_time: 2000-01-01T12:00:00.00Z
+    software_build_time: 2019-04-04T00:01:08-07:00
+    software_version: 9a1b2
+    start_time_epoch_secs: 580219200
+    stop_time_epoch_secs: 580219200
+  variables:
+    - gps_time:
+        comment: 1st column
+        coverage_content_type: referenceInformation
+        long_name: Continuous seconds past 01-Jan-2000 11:59:47 UTC
+        units: second
+    - GRACEFO_id:
+        comment: 2nd column
+        coverage_content_type: referenceInformation
+        long_name: GRACE-FO satellite identifier
+        units: char
+        valid_range: C,D
+        value_meanings:
+          - C = GRACE-FO 1 (GRACE C)
+          - D = GRACE-FO 2 (GRACE D)
+    - sca_id:
+        comment: 3rd column
+        coverage_content_type: referenceInformation
+        long_name: SCA identification number
+        valid_range: 1, 3
+        value_meanings:
+          - 1 = SCA 1
+          - 2 = SCA 2
+          - 3 = SCA 3
+    - quatangle:
+        comment: 4th column
+        coverage_content_type: modelResult
+        long_name: Cos(theta/2) component of rotation quaternion
+    - quaticoeff:
+        comment: 5th column
+        coverage_content_type: modelResult
+        long_name: i-component of rotation quaternion
+    - quatjcoeff:
+        comment: 6th column
+        coverage_content_type: modelResult
+        long_name: j-component of rotation quaternion
+    - quatkcoeff:
+        comment: 7th column
+        coverage_content_type: modelResult
+        long_name: k-component of rotation quaternion
+    - qual_rss:
+        comment: 8th column
+        coverage_content_type: modelResult
+        long_name: RSS of formal error of quaternions
+    - qualflg:
+        comment: 9th column
+        coverage_content_type: qualityInformation
+        flag_masks: 1b, 2b, 4b, 8b, 16b, 32b, 64b, 128b
+        flag_meanings: bits 0-7 = Not defined
+        long_name: Quality flags, bit 0 is rightmost
+# End of YAML header
+580219200 D 1 -0.1789388979356683 0.682734893544669 0.68280707751296 0.188754949181018 0 00000000
+580219200 D 2 0.2364914939710544 -0.0535740306800429 0.851794739502496 0.464378421410715 0 00000000
+580219200 D 3 -0.4504277250139701 0.8590253079524141 -0.0480909983022378 -0.238490336739864 0 00000000
